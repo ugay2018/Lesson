@@ -36,10 +36,7 @@ public class Home_Work {
                 System.out.println("Ничья");
                 break;
             }
-            if(isFreePlace()) {
-                System.out.println("Ничья");
-                break;
-            }
+
             moveAi();
             System.out.println();
             printField();
